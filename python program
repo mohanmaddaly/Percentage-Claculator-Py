@@ -1,0 +1,17 @@
+def marks(a , b , c , d , e ):
+	marks = a + b + c + d + e  
+	return marks
+
+print("welcome To College marks")
+
+a = input('\n Marks Secured in Maths : ')
+b = input('\n Marks Secured in Science : ')
+c = input('\n Marks Secured in Social : ')
+d =input('\n Marks Secured in Telugu : ')
+e = input('\n Marks Secured in English : ')
+
+marks  = float(a) + float(b) + float (c) +float(d) + float(e)  
+
+per = float(marks) / (100) * 100
+
+print("the percentage is : " , per )
